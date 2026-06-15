@@ -3,18 +3,17 @@
         "domain": "frontend",
         "title": "Frontend",
         "icon": "fa fa-desktop",
-        "description": "Creation d'interfaces accessibles, responsives et performantes.",
+        "description": "Création d'interfaces accessibles, responsives et performantes.",
         "proof": [
-            "Interfaces responsive desktop/mobile livrees sur projets.",
+            "Interfaces responsive desktop/mobile livrées sur projets.",
             "Formulaires valides et ergonomiques avec retours utilisateur.",
             "Composants dynamiques en JavaScript et React."
         ],
         "skills": [
             { "key": "html", "name": "HTML", "icon": "fa-brands fa-html5", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
             { "key": "javascript", "name": "JavaScript", "icon": "fa-brands fa-js", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
-            { "key": "wordpress", "name": "Wordpress", "icon": "icon:wordpress.png", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
             { "key": "vue", "name": "Vue.js", "icon": "fa-brands fa-vuejs", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
-            { "key": "accessibilite", "name": "Accessibilite web", "icon": "fas fa-universal-access", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "accessibilite", "name": "Accessibilité web", "icon": "fas fa-universal-access", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
             { "key": "css", "name": "CSS", "icon": "fa-brands fa-css3-alt", "level": "mastery", "featured": false, "methodo": false, "showInCV": true },
             { "key": "bootstrap", "name": "Bootstrap", "icon": "fa-brands fa-bootstrap", "level": "mastery", "featured": false, "methodo": false, "showInCV": true },
             { "key": "stylus", "name": "Stylus", "icon": "icon:stylus.svg", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
@@ -29,14 +28,65 @@
         ]
     },
     {
+        "domain": "wordpress",
+        "title": "WordPress",
+        "icon": "icon:wordpress.png",
+        "description": "Création, personnalisation et administration de sites WordPress vitrines.",
+        "proof": [
+            "Création de sites WordPress de zéro, en local et en ligne.",
+            "Hébergement, nom de domaine, SSL et mise en ligne via Hostinger.",
+            "Personnalisation de thèmes, pages, menus, formulaires et styles CSS."
+        ],
+        "skills": [
+            { "key": "wordpress", "name": "WordPress", "icon": "icon:wordpress.png", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "localwp", "name": "Installation locale", "icon": "fas fa-laptop-code", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "hostinger", "name": "Hébergement Hostinger", "icon": "fas fa-server", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "astra", "name": "Thème Astra", "icon": "fas fa-palette", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "gutenberg", "name": "Éditeur Gutenberg", "icon": "icon:wordpress.png", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "wordpress-css", "name": "CSS personnalisé", "icon": "fa-brands fa-css3-alt", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "wordpress-menus", "name": "Menus / header / footer", "icon": "fas fa-bars", "level": "mastery", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "wordpress-forms", "name": "Contact Form 7 / WPForms", "icon": "fas fa-envelope-open-text", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "wordpress-seo-plugins", "name": "Yoast SEO / Rank Math", "icon": "fas fa-search", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "wordpress-booking", "name": "Réservation d'appel", "icon": "fas fa-calendar-check", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "wordpress-cache", "name": "LiteSpeed Cache", "icon": "fas fa-tachometer-alt", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "elementor-divi", "name": "Elementor / Divi", "icon": "icon:wordpress.png", "level": "notions", "featured": false, "methodo": false, "showInCV": true }
+        ]
+    },
+    {
+        "domain": "seo",
+        "title": "SEO",
+        "icon": "fas fa-search",
+        "description": "Bases de référencement naturel travaillées sur mes projets web et WordPress.",
+        "proof": [
+            "Recherche de mots-clés et optimisation de contenus sur mes propres projets.",
+            "Utilisation de Yoast SEO et Rank Math pour améliorer les pages.",
+            "Suivi de trafic et de visibilité avec Google Analytics et Search Console."
+        ],
+        "skills": [
+            { "key": "seo-on-page", "name": "SEO on-page", "icon": "fas fa-search", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "meta-title-description", "name": "Titres & méta-descriptions", "icon": "fas fa-heading", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "heading-structure", "name": "Structure Hn", "icon": "fas fa-list-ol", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "keyword-research", "name": "Recherche de mots-clés", "icon": "fas fa-key", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "content-optimization", "name": "Optimisation de contenus", "icon": "fas fa-align-left", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "google-analytics", "name": "Google Analytics", "icon": "fas fa-chart-line", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "search-console", "name": "Google Search Console", "icon": "fab fa-google", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "pagespeed", "name": "PageSpeed Insights", "icon": "fas fa-gauge-high", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "lighthouse", "name": "Lighthouse", "icon": "fas fa-lightbulb", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "sitemap", "name": "Sitemap", "icon": "fas fa-sitemap", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "robots-txt", "name": "robots.txt", "icon": "fas fa-robot", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "redirects-404", "name": "Redirections / 404", "icon": "fas fa-route", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "seo-performance", "name": "Performance & responsive", "icon": "fas fa-mobile-alt", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true }
+        ]
+    },
+    {
         "domain": "backend",
         "title": "Backend",
         "icon": "fa fa-server",
-        "description": "Developpement de logique metier et services cote serveur.",
+        "description": "Développement de logique métier et services côté serveur.",
         "proof": [
-            "API REST CRUD developpees avec Spring Boot.",
-            "Auth securisee et gestion des roles avec Spring Security.",
-            "Gestion d'erreurs et structuration MVC cote serveur."
+            "API REST CRUD développées avec Spring Boot.",
+            "Auth sécurisée et gestion des rôles avec Spring Security.",
+            "Gestion d'erreurs et structuration MVC côté serveur."
         ],
         "skills": [
             { "key": "java", "name": "Java", "icon": "fa-brands fa-java", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
@@ -44,7 +94,7 @@
             { "key": "rest", "name": "REST API", "icon": "fas fa-plug", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
             { "key": "poo", "name": "POO", "icon": "fas fa-cubes", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
             { "key": "mvc", "name": "MVC", "icon": "fas fa-layer-group", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
-            { "key": "http", "name": "Methodes HTTP", "icon": "fas fa-exchange-alt", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "http", "name": "Méthodes HTTP", "icon": "fas fa-exchange-alt", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
             { "key": "error-handling", "name": "Gestion des erreurs", "icon": "fas fa-bug", "level": "intermediate", "featured": false, "methodo": false, "showInCV": false },
             { "key": "hibernate", "name": "Hibernate / JPA", "icon": "fas fa-layer-group", "level": "notions", "featured": false, "methodo": false, "showInCV": true },
             { "key": "junit", "name": "JUnit", "icon": "fas fa-vial", "level": "notions", "featured": false, "methodo": false, "showInCV": true },
@@ -54,55 +104,67 @@
     },
     {
         "domain": "bdd",
-        "title": "Bases de donnees",
+        "title": "Bases de données",
         "icon": "fa fa-database",
-        "description": "Conception de schemas, requetes et optimisation des donnees.",
+        "description": "Conception de schémas, requêtes et optimisation des données.",
         "proof": [
-            "Schemas relationnels modelises avec Merise/UML.",
-            "Requetes SQL pour extraction, jointures et filtres avances.",
-            "Administration et verification de jeux de donnees en environnement projet."
+            "Schémas relationnels modélisés avec Merise/UML.",
+            "Requêtes SQL pour extraction, jointures et filtres avancés.",
+            "Administration et vérification de jeux de données en environnement projet."
         ],
         "skills": [
             { "key": "sql", "name": "SQL", "icon": "fa-solid fa-database", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
             { "key": "postgresql", "name": "PostgreSQL", "icon": "icon:postgresql.png", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
             { "key": "mysql", "name": "MySQL", "icon": "fas fa-database", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
-            { "key": "phpmyadmin", "name": "phpMyAdmin", "icon": "fab fa-php", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
-            { "key": "drawio", "name": "Draw.io", "icon": "fas fa-draw-polygon", "level": "intermediate", "featured": false, "methodo": true, "showInCV": true },
-            { "key": "merise", "name": "Merise / MCD", "icon": "fas fa-project-diagram", "level": "notions", "featured": false, "methodo": true, "showInCV": true },
-            { "key": "uml", "name": "UML", "icon": "fas fa-sitemap", "level": "notions", "featured": false, "methodo": true, "showInCV": true }
+            { "key": "phpmyadmin", "name": "phpMyAdmin", "icon": "fab fa-php", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true }
         ]
     },
     {
         "domain": "outils",
         "title": "Outils et environnement",
         "icon": "fa fa-wrench",
-        "description": "Workflow, collaboration et environnement de developpement quotidien.",
+        "description": "Workflow, collaboration et environnement de développement quotidien.",
         "proof": [
-            "Suivi de sprint et priorisation des taches en mode Scrum.",
-            "Versionning Git/GitHub avec collaboration equipe.",
-            "Tests et debogage avec Postman et Chrome DevTools."
+            "Versioning Git/GitHub avec collaboration équipe.",
+            "Tests et débogage avec Postman et Chrome DevTools."
         ],
         "skills": [
             { "key": "vscode", "name": "VS Code", "icon": "icon:vscode.png", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
             { "key": "git", "name": "Git", "icon": "fas fa-code-branch", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
             { "key": "figma", "name": "Figma", "icon": "fab fa-figma", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
-            { "key": "markdown", "name": "Markdown", "icon": "fab fa-markdown", "level": "mastery", "featured": true, "methodo": true, "showInCV": true },
-            { "key": "notion", "name": "Notion", "icon": "fas fa-book", "level": "mastery", "featured": true, "methodo": true, "showInCV": true },
             { "key": "adobe-xd", "name": "Adobe XD", "icon": "icon:adobe-xd.svg", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
             { "key": "canva", "name": "Canva", "icon": "icon:canvas.png", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
             { "key": "ia", "name": "IA", "icon": "fa fa-lightbulb-o", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
             { "key": "github", "name": "GitHub", "icon": "fab fa-github", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
             { "key": "npm", "name": "npm / Node.js", "icon": "fab fa-node-js", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
-            { "key": "jira", "name": "Jira", "icon": "fab fa-jira", "level": "intermediate", "featured": true, "methodo": true, "showInCV": true },
             { "key": "expo", "name": "Expo", "icon": "fas fa-rocket", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
-            { "key": "trello", "name": "Trello", "icon": "icon:trello.svg", "level": "mastery", "featured": false, "methodo": true, "showInCV": true },
             { "key": "slack", "name": "Slack", "icon": "fab fa-slack", "level": "mastery", "featured": false, "methodo": false, "showInCV": false },
             { "key": "eclipse", "name": "Eclipse", "icon": "icon:eclipse.svg", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
-            { "key": "agile", "name": "Agile", "icon": "icon:agile.svg", "level": "intermediate", "featured": false, "methodo": true, "showInCV": true },
             { "key": "postman", "name": "Postman", "icon": "fas fa-paper-plane", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
             { "key": "devtools", "name": "Chrome DevTools", "icon": "fab fa-chrome", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
-            { "key": "android-studio", "name": "Android Studio", "icon": "fab fa-android", "level": "notions", "featured": false, "methodo": false, "showInCV": true },
-            { "key": "scrum", "name": "Scrum", "icon": "fas fa-sync-alt", "level": "notions", "featured": false, "methodo": true, "showInCV": true }
+            { "key": "android-studio", "name": "Android Studio", "icon": "fab fa-android", "level": "notions", "featured": false, "methodo": false, "showInCV": true }
+        ]
+    },
+    {
+        "domain": "methodologie",
+        "title": "Méthodologie",
+        "icon": "fas fa-diagram-project",
+        "description": "Méthodes de conception, d'organisation et de suivi utilisées dans mes projets.",
+        "proof": [
+            "Modélisation et structuration avant développement.",
+            "Organisation de tâches et documentation de projet.",
+            "Repères Agile/Scrum vus et utilisés dans un contexte de formation ou de projet."
+        ],
+        "skills": [
+            { "key": "drawio", "name": "Draw.io", "icon": "fas fa-draw-polygon", "level": "intermediate", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "merise", "name": "Merise / MCD", "icon": "fas fa-project-diagram", "level": "notions", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "uml", "name": "UML", "icon": "fas fa-sitemap", "level": "notions", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "markdown", "name": "Markdown", "icon": "fab fa-markdown", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "notion", "name": "Notion", "icon": "fas fa-book", "level": "mastery", "featured": true, "methodo": false, "showInCV": true },
+            { "key": "jira", "name": "Jira", "icon": "fab fa-jira", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "trello", "name": "Trello", "icon": "icon:trello.svg", "level": "mastery", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "agile", "name": "Agile", "icon": "icon:agile.svg", "level": "intermediate", "featured": false, "methodo": false, "showInCV": true },
+            { "key": "scrum", "name": "Scrum", "icon": "fas fa-sync-alt", "level": "notions", "featured": false, "methodo": false, "showInCV": true }
         ]
     }
 ]

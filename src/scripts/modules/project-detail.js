@@ -98,7 +98,7 @@
             media.push({
                 src: String(project.apercu),
                 type: "image",
-                alt: project.apercu_alt || ("Apercu du projet " + project.title),
+                alt: project.apercu_alt || ("Aperçu du projet " + project.title),
                 caption: "",
                 poster: ""
             });
@@ -140,7 +140,7 @@
 
         if (isImageUrl(previewUrl)) {
             previewEl.innerHTML =
-                '<img class="project-video-preview-media" src="' + escapeHtml(previewUrl) + '" alt="Apercu video du projet ' + escapeHtml(project.title) + '">';
+                '<img class="project-video-preview-media" src="' + escapeHtml(previewUrl) + '" alt="Aperçu vidéo du projet ' + escapeHtml(project.title) + '">';
             return;
         }
 

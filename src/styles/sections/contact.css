@@ -184,11 +184,9 @@
     outline: none;
     font-family: "Space Grotesk", "Lato", sans-serif;
 }
-}
 
 .contact-submit::before {
     display: none;
-}
 }
 
 .contact-submit:hover,
@@ -202,7 +200,6 @@
 .contact-submit:focus-visible {
     outline: 2px solid var(--accent-cyan);
     outline-offset: 2px;
-}
 }
 
 .contact-submit:disabled {

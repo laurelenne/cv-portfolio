@@ -4,6 +4,7 @@
     var DATA_URL = "src/data/skills.json";
     var MOBILE_BREAKPOINT = 767;
     var MOBILE_VISIBLE_SKILLS = 8;
+    var DOMAIN_ORDER = ["frontend", "backend", "bdd", "wordpress", "seo", "outils", "methodologie"];
     var hasBoundMobileControls = false;
 
     function prefersReducedMotion() {
@@ -14,7 +15,7 @@
     // [
     //   {
     //     "domain": "frontend|backend|bdd|outils",
-    //     "title": "Nom de la categorie",
+    //     "title": "Nom de la catégorie",
     //     "icon": "Classes Font Awesome",
     //     "description": "Texte court",
     //     "proof": ["Point 1", "Point 2"],
@@ -61,8 +62,8 @@
     }
 
     function getLevel(level) {
-        if (level === "mastery") return { css: "level-1", label: "Bonne maitrise" };
-        if (level === "intermediate") return { css: "level-2", label: "Intermediaire" };
+        if (level === "mastery") return { css: "level-1", label: "Bonne maîtrise" };
+        if (level === "intermediate") return { css: "level-2", label: "Intermédiaire" };
         return { css: "level-3", label: "Notions" };
     }
 
@@ -106,7 +107,7 @@
         wrapper.innerHTML =
             '<div class="skills-category-head">' +
             '<h5 class="skills-category-title">' + renderIconHtml(category.icon) + '<span class="skills-category-title-text">' + escapeHtml(category.title) + '</span></h5>' +
-            '<button type="button" class="skills-category-toggle" aria-expanded="true" aria-label="Replier la categorie">' +
+            '<button type="button" class="skills-category-toggle" aria-expanded="true" aria-label="Replier la catégorie">' +
             '<i class="fa fa-minus" aria-hidden="true"></i>' +
             '</button>' +
             '</div>' +
@@ -132,11 +133,22 @@
         container.innerHTML = "";
 
         var fragment = document.createDocumentFragment();
-        categories.forEach(function (category) {
+        sortCategories(categories).forEach(function (category) {
             fragment.appendChild(buildSkillsCategory(category));
         });
 
         container.appendChild(fragment);
+    }
+
+    function getDomainOrder(domain) {
+        var index = DOMAIN_ORDER.indexOf(domain);
+        return index === -1 ? DOMAIN_ORDER.length : index;
+    }
+
+    function sortCategories(categories) {
+        return (categories || []).slice().sort(function (a, b) {
+            return getDomainOrder(a.domain) - getDomainOrder(b.domain);
+        });
     }
 
     function applyFilter(filter) {
@@ -153,13 +165,10 @@
 
         badges.forEach(function (badge) {
             var domain = badge.getAttribute("data-domain");
-            var isMethodo = badge.getAttribute("data-methodo") === "true";
             var shouldShow = false;
 
             if (filter === "all") {
                 shouldShow = true;
-            } else if (filter === "methodo") {
-                shouldShow = isMethodo;
             } else {
                 shouldShow = domain === filter;
             }
@@ -237,7 +246,7 @@
         if (!toggle) return;
 
         toggle.setAttribute("aria-expanded", shouldCollapse ? "false" : "true");
-        toggle.setAttribute("aria-label", shouldCollapse ? "Developper la categorie" : "Replier la categorie");
+        toggle.setAttribute("aria-label", shouldCollapse ? "Développer la catégorie" : "Replier la catégorie");
         toggle.innerHTML = shouldCollapse
             ? '<i class="fa fa-plus" aria-hidden="true"></i>'
             : '<i class="fa fa-minus" aria-hidden="true"></i>';
@@ -400,8 +409,8 @@
             var currentWidth = window.innerWidth;
             var widthDelta = Math.abs(currentWidth - lastResizeWidth);
 
-            // Sur mobile, la barre navigateur change souvent la hauteur et declenche resize.
-            // On ignore ces micro-resize pour eviter les etats d'UI intermittents.
+        // Sur mobile, la barre navigateur change souvent la hauteur et déclenche resize.
+        // On ignore ces micro-resize pour éviter les états d'UI intermittents.
             if (currentIsMobile !== lastResizeIsMobile || widthDelta >= 24) {
                 updateMobileSkillsLayout();
                 lastResizeIsMobile = currentIsMobile;
@@ -416,7 +425,9 @@
         if (filter === "backend") return "Backend";
         if (filter === "bdd") return "BDD";
         if (filter === "outils") return "Outils";
-        if (filter === "methodo") return "Methodo";
+        if (filter === "wordpress") return "WordPress";
+        if (filter === "seo") return "SEO";
+        if (filter === "methodologie") return "Méthodologie";
         return "Toutes";
     }
 
@@ -425,7 +436,7 @@
         if (!feedback) return;
 
         var label = getFilterLabel(filter);
-        feedback.textContent = label + " : " + skillsCount + " competences dans " + categoriesCount + " categorie" + (categoriesCount > 1 ? "s" : "");
+        feedback.textContent = label + " : " + skillsCount + " compétences dans " + categoriesCount + " catégorie" + (categoriesCount > 1 ? "s" : "");
     }
 
     function ensureFilterFeedback() {
@@ -488,7 +499,7 @@
     function initSkillsEnhancer() {
         fetch(DATA_URL)
             .then(function (res) {
-                if (!res.ok) throw new Error("Impossible de charger les competences.");
+                if (!res.ok) throw new Error("Impossible de charger les compétences.");
                 return res.json();
             })
             .then(function (categories) {
@@ -497,8 +508,8 @@
                 initFilters();
                 initPanelResizeBehavior();
                 initMobileControls();
-                setActiveFilterButton("all");
-                applyFilter("all");
+                setActiveFilterButton("frontend");
+                applyFilter("frontend");
                 document.dispatchEvent(new CustomEvent("portfolio:layout-stable"));
             })
             .catch(function (err) {

@@ -1,170 +1,130 @@
-<!-- Page dédiée à l'impression/PDF du CV -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV - Version PDF/Impression</title>
-  <link rel="stylesheet" href="src/styles/pages/cv-pdf.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
     <meta name="theme-color" content="#071321">
-    <title>CV — Laurélenne Poussin · Développeuse Web</title>
+    <title>CV - Laurélenne Poussin | Développeuse Web</title>
     <link rel="icon" type="image/png" href="public/assets/images/lp-logo.png">
-    <!-- Polices -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Space+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <!-- Icônes (Font Awesome 6) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/132df433f5.js" crossorigin="anonymous"></script>
-    <!-- Styles PDF -->
     <link rel="stylesheet" href="src/styles/pages/cv-pdf.css">
-  <!-- Ajoutez ici d'autres liens CSS spécifiques à l'impression si besoin -->
 </head>
-<body>
-    <!-- ── Barre d'actions (masquée à l'impression) ─────────────── -->
+<body class="cv-body">
     <div class="cv-toolbar no-print" role="toolbar" aria-label="Actions de la page CV">
         <a href="index.html" class="cv-back-link">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
             Retour au site
         </a>
         <div class="cv-toolbar-right">
-            <span class="cv-print-hint">
-              Généré dynamiquement depuis le portfolio · Les données sont synchronisées avec le site
-            </span>
+            <span class="cv-print-hint">CV généré depuis les données du portfolio</span>
             <button type="button" class="cv-print-btn" onclick="window.downloadCVasPDF()">
-              <i class="fa fa-download" aria-hidden="true"></i>
-              Télécharger PDF
+                <i class="fa fa-download" aria-hidden="true"></i>
+                Enregistrer en PDF
             </button>
             <button type="button" class="cv-print-btn" onclick="window.print()">
-              <i class="fa fa-print" aria-hidden="true"></i>
-              Imprimer le CV
+                <i class="fa fa-print" aria-hidden="true"></i>
+                Imprimer
             </button>
         </div>
     </div>
-    <div class="cv-page-bg">
-    <article class="cv-document" role="main" aria-label="Curriculum Vitæ — Laurélenne Poussin">
-      <header class="cv-header">
-        <div class="cv-header-photo-wrap">
-          <img src="public/assets/images/lp-logo.png"
-               class="cv-photo"
-               width="88" height="88"
-               alt="Laurélenne Poussin">
-          <span class="cv-avail-badge" title="Actuellement disponible">
-            <span class="cv-avail-dot" aria-hidden="true"></span>
-            Disponible
-          </span>
-        </div>
-        <div class="cv-header-info">
-          <h1 class="cv-name">Laurélenne Poussin</h1>
-          <p class="cv-job-title">Développeuse Web & Web Mobile</p>
-          <section class="cv-section">
-            <p class="cv-profile-text">
-              Je souhaite rejoindre une équipe où je pourrai mettre à profit mes compétences en front-end, UX/UI et développement web, tout en continuant à apprendre et à progresser sur de nouvelles technologies.
-            </p>
-          </section>
 
-          <ul class="cv-contacts" aria-label="Coordonnées">
-            <li>
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <a href="mailto:poussin.laurelenne@gmail.com">poussin.laurelenne@gmail.com</a>
-            </li>
-            <li>
-              <i class="fab fa-github" aria-hidden="true"></i>
-              <a href="https://github.com/laurelenne" target="_blank" rel="noopener noreferrer">github.com/laurelenne</a>
-            </li>
-            <li>
-              <i class="fab fa-linkedin" aria-hidden="true"></i>
-              <a href="https://www.linkedin.com/in/laurelenne-poussin/" target="_blank" rel="noopener noreferrer">linkedin.com/in/laurelenne-poussin</a>
-            </li>
-          </ul>
-        </div>
-      </header>
-      <div class="cv-body-grid">
-        <div class="cv-main-col">
-          <section class="cv-section">
-            <div id="cv-timeline" class="cv-timeline">
-              <p class="cv-loading" aria-live="polite">Chargement…</p>
+    <div class="cv-page-bg">
+        <article class="cv-document" role="main" aria-label="Curriculum vitae - Laurélenne Poussin">
+            <header class="cv-header">
+                <div class="cv-header-photo-wrap">
+                    <img
+                        src="public/assets/images/lp-logo.png"
+                        class="cv-photo"
+                        width="88"
+                        height="88"
+                        alt="Logo Laurélenne Poussin">
+                    <span class="cv-avail-badge">
+                        <span class="cv-avail-dot" aria-hidden="true"></span>
+                        Disponible
+                    </span>
+                </div>
+
+                <div class="cv-header-info">
+                    <h1 class="cv-name">Laurélenne Poussin</h1>
+                    <p class="cv-job-title">Développeuse Web & Web Mobile · WordPress · UX/UI · SEO</p>
+                    <p class="cv-profile-text">
+                        Développeuse web polyvalente, avec des compétences en intégration, WordPress, UX/UI et SEO appliquées à mes projets. Je souhaite rejoindre une équipe web où je pourrai contribuer à des sites utiles, lisibles, accessibles et bien structurés.
+                    </p>
+
+                    <ul class="cv-contacts" aria-label="Coordonnées">
+                        <li>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:poussin.laurelenne@gmail.com">poussin.laurelenne@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <a href="https://github.com/laurelenne" target="_blank" rel="noopener noreferrer">github.com/laurelenne</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <a href="https://www.linkedin.com/in/laurelenne-poussin/" target="_blank" rel="noopener noreferrer">linkedin.com/in/laurelenne-poussin</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="cv-body-grid">
+                <main class="cv-main-col">
+                    <section class="cv-section">
+                        <h2 class="cv-section-title">Réalisations</h2>
+                        <div id="cv-projects" class="cv-projects">
+                            <p class="cv-loading" aria-live="polite">Chargement...</p>
+                        </div>
+                    </section>
+
+                    <section class="cv-section">
+                        <h2 class="cv-section-title">Parcours</h2>
+                        <div id="cv-timeline" class="cv-timeline">
+                            <p class="cv-loading" aria-live="polite">Chargement...</p>
+                        </div>
+                    </section>
+                </main>
+
+                <aside class="cv-sidebar-col">
+                    <section class="cv-section">
+                        <h2 class="cv-section-title">Compétences</h2>
+                        <div id="cv-skills" class="cv-skills">
+                            <p class="cv-loading" aria-live="polite">Chargement...</p>
+                        </div>
+                    </section>
+
+                    <section class="cv-section">
+                        <h2 class="cv-section-title">Atouts</h2>
+                        <ul class="cv-bullets">
+                            <li>Double regard développement, UX et contenu</li>
+                            <li>Intérêt marqué pour WordPress et le SEO on-page</li>
+                            <li>Autonomie, curiosité et sens de la structure</li>
+                        </ul>
+                    </section>
+
+                    <section class="cv-section">
+                        <h2 class="cv-section-title">Langues</h2>
+                        <ul class="cv-lang-list">
+                            <li>
+                                <span class="cv-lang-name">Français</span>
+                                <span class="cv-lang-level">Langue maternelle</span>
+                            </li>
+                            <li>
+                                <span class="cv-lang-name">Anglais</span>
+                                <span class="cv-lang-level">Technique - lecture</span>
+                            </li>
+                        </ul>
+                    </section>
+                </aside>
             </div>
-          </section>
-        </div>
-        <aside class="cv-sidebar-col">
-          <section class="cv-section">
-            <h2 class="cv-section-title">Compétences</h2>
-            <div id="cv-skills" class="cv-skills">
-              <p class="cv-loading" aria-live="polite">Chargement…</p>
-            </div>
-          </section>
-          <section class="cv-section">
-            <h2 class="cv-section-title">Atouts</h2>
-            <ul class="cv-bullets">
-              <li>Adaptation rapide en équipe</li>
-              <li>Apprentissage continu</li>
-              <li>Curiosité technique</li>
-            </ul>
-          </section>
-          <section class="cv-section">
-            <h2 class="cv-section-title">Langues</h2>
-            <ul class="cv-lang-list">
-              <li>
-                <span class="cv-lang-name">Français</span>
-                <span class="cv-lang-level">Langue maternelle</span>
-              </li>
-              <li>
-                <span class="cv-lang-name">Anglais</span>
-                <span class="cv-lang-level">Technique — lecture</span>
-              </li>
-            </ul>
-          </section>
-        </aside>
-      </div>
-    </article>
-  </div>
-    <!-- Génération PDF -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+        </article>
+    </div>
+
     <script src="src/scripts/modules/download-pdf.js"></script>
     <script src="src/scripts/pages/cv.js"></script>
-</script>
-<script>
-// Overlay de chargement sur la page CV PDF
-// S'affiche dès l'arrivée sur la page, puis disparaît après un court délai
-document.addEventListener('DOMContentLoaded', function() {
-  // Crée l'overlay
-  let overlay = document.createElement('div');
-  overlay.id = 'cv-pdf-loading-overlay';
-  overlay.style.position = 'fixed';
-  overlay.style.top = 0;
-  overlay.style.left = 0;
-  overlay.style.width = '100vw';
-  overlay.style.height = '100vh';
-  overlay.style.background = 'rgba(6,14,26,0.96)';
-  overlay.style.color = '#fff';
-  overlay.style.zIndex = 9999;
-  overlay.style.display = 'flex';
-  overlay.style.alignItems = 'center';
-  overlay.style.justifyContent = 'center';
-  overlay.style.fontSize = '1.3rem';
-  overlay.style.fontFamily = 'Space Grotesk, Lato, Arial, sans-serif';
-  overlay.innerHTML = '<div style="text-align:center"><div style="margin-bottom:0.7em"><svg width="48" height="48" viewBox="0 0 50 50"><circle cx="25" cy="25" r="20" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" stroke-dasharray="31.4 31.4" transform="rotate(-90 25 25)"><animateTransform attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="1s" repeatCount="indefinite"/></circle></svg></div><span style="font-size:1.5em;font-weight:700;letter-spacing:0.01em;">Chargement du CV…</span></div>';
-  document.body.appendChild(overlay);
-
-  // Délai minimum pour garantir l'affichage du message
-  let minDelay = 700; // ms
-  let start = Date.now();
-
-  function removeOverlay() {
-    if (overlay && document.body.contains(overlay)) {
-      overlay.remove();
-    }
-  }
-
-  // Retire l'overlay après le délai min, ou dès que tout est prêt
-  window.addEventListener('load', function() {
-    let elapsed = Date.now() - start;
-    let remaining = minDelay - elapsed;
-    setTimeout(removeOverlay, remaining > 0 ? remaining : 0);
-  });
-});
 </body>
 </html>

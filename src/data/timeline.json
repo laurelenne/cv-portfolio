@@ -1,14 +1,15 @@
 [
     {
         "icon": "fa fa-briefcase",
-        "tag": "Expérience",
+        "tag": "Activité actuelle",
         "tagType": "experience",
+        "cvLabel": "Activité actuelle",
         "date": "2025",
         "dateSort": "10/2025",
         "title": "Vendeuse en boulangerie",
         "lieu": "Marie Blachère, Marmande",
         "desc": "",
-        "desc-cv": null,
+        "desc-cv": "Activité actuelle hors secteur web, conservée dans le CV pour situer ma situation professionnelle en cours.",
         "chips": [],
         "showInCV": true,
         "onlyInCV": true
@@ -19,13 +20,13 @@
         "tagType": "formation",
         "date": "2020",
         "dateSort": "09/2020",
-        "title": "Concepteur Développeur d'Applications",
+        "title": "Formation Concepteur Développeur d'Applications",
         "lieu": "GRETA Montpellier",
-        "desc": "Formation de 9 mois préparant au titre professionnel de niveau II (Bac +3/4) : Concepteur·rice Développeur·se d'Applications, avec un projet de développement d'une application de gestion de tâches en équipe.",
+        "desc": "Formation de 9 mois suivie au GRETA Montpellier, préparant au titre professionnel de niveau II (Bac +3/4) : Concepteur·rice Développeur·se d'Applications. Parcours orienté conception d'applications, architecture n-tiers, base de données et développement d'un projet de gestion de tâches en équipe.",
         "chips": ["Frontend", "Backend", "Base de données", "Projet n-tiers"],
-        "desc-cv": "Formation préparant au titre professionnel de niveau II (Bac +3/4) : Concepteur·rice Développeur·se d'Applications.",
+        "desc-cv": "Formation suivie, préparant au titre professionnel de niveau II (Bac +3/4) : conception d'applications, architecture n-tiers, base de données et projet en équipe.",
         "showInCV": true,
-        "onlyInCV": true
+        "onlyInCV": false
     },
     {
         "icon": "fa fa-graduation-cap",
@@ -76,7 +77,7 @@
         "lieu": "Lycée Turgot, Montpellier",
         "desc": "Diplôme orienté aide sociale et maintien du lien social, travail avec tout public en centres d'action sociale, associations et foyers.",
         "chips": [],
-        "showInCV": true
+        "showInCV": false
     },
     {
         "icon": "fa fa-briefcase",
@@ -86,8 +87,9 @@
         "dateSort": "01/2020",
         "title": "Stagiaire Développeuse Web",
         "lieu": "SIDY, Montpellier",
-        "desc": "Stage réalisé chez SIDY, entreprise spécialisée dans l’édition de logiciels applicatifs. Développement d’un module de chat en temps réel intégré à une application de gestion de prestataires, destiné aux propriétaires de logements.",
-        "chips": ["GraphQL", "Vue.js", "Node.js", "Bootstrap", "PUGJS", "Stylus", "Github"],
+        "desc": "Stage réalisé dans le cadre de ma formation Développeuse Web et Web Mobile, chez SIDY, entreprise spécialisée dans l’édition de logiciels applicatifs. Développement d’un module de chat en temps réel intégré à une application de gestion de prestataires, destiné aux propriétaires de logements.",
+        "desc-cv": "Stage réalisé dans le cadre de ma formation Développeuse Web et Web Mobile : développement d’un module de chat en temps réel intégré à une application de gestion de prestataires.",
+        "chips": ["Stage formation", "GraphQL", "Vue.js", "Node.js", "Bootstrap", "PUGJS", "Stylus", "Github"],
         "showInCV": true
     },
     {
@@ -98,9 +100,9 @@
         "dateSort": "01/2020",
         "title": "Stagiaire Développeuse Web",
         "lieu": "WebbyJC, Montferrier",
-        "desc": "Stage au sein d'une activité de création de sites web, durant lequel j’ai conçu et développé un site vitrine dédié à un service de garde d’animaux pour particuliers. Participation aux différentes étapes du projet : intégration, structuration des pages et mise en place d’une interface claire et adaptée aux besoins du client.",
-        "chips": ["Webflow", "HTML", "CSS", "UX/UI"],
-        "desc-cv": "Stage au sein d'une activité de création de sites web, durant lequel j’ai conçu et développé un site vitrine dédié à un service de garde d’animaux pour particuliers.",
+        "desc": "Stage réalisé dans le cadre de ma formation Développeuse Web et Web Mobile, au sein d'une activité de création de sites web. Conception et développement d’un site vitrine dédié à un service de garde d’animaux pour particuliers, avec participation aux étapes d’intégration, de structuration des pages et de mise en place d’une interface claire.",
+        "chips": ["Stage formation", "Webflow", "HTML", "CSS", "UX/UI"],
+        "desc-cv": "Stage réalisé dans le cadre de ma formation Développeuse Web et Web Mobile : conception et développement d’un site vitrine pour un service de garde d’animaux.",
         "showInCV": true
     },
     {
