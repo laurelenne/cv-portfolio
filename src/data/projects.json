@@ -210,7 +210,7 @@
         "title": "Clicly.fr",
         "year": 2025,
         "type": "Site vitrine WordPress",
-        "status": "En pause",
+        "status": "Terminé",
         "eyebrow": "Étude de cas",
         "lead": "Site vitrine WordPress réalisé pendant mon passage en incubateur pour présenter une offre de création de sites web, structurer des pages de services et travailler les bases SEO on-page.",
         "objectif": "Construire une présence web claire pour une activité de création de sites WordPress : expliquer les offres, rassurer les visiteurs, faciliter la prise de contact et poser les fondations du référencement naturel.",
@@ -233,9 +233,8 @@
             {
                 "title": "Cible et usage",
                 "content": [
-                    "Site destiné à des indépendants et petites structures recherchant un site vitrine WordPress.",
-                    "Parcours conçu pour orienter rapidement vers les offres, les preuves de sérieux et la prise de rendez-vous.",
-                    "Le projet est actuellement en pause suite à l'arrêt de l'hébergement Hostinger ; les captures documentent le travail réalisé avant la mise hors ligne."
+                    "Site réalisé pour une activité de création de sites WordPress, visant des clients potentiels recherchant un prestataire fiable et compétent.",
+                    "Parcours conçu pour orienter rapidement vers les offres, les preuves de sérieux et la prise de rendez-vous."
                 ]
             },
             {
@@ -303,127 +302,33 @@
             "Centralisation des données dans plusieurs stores Pinia dédiés aux clients, projets, tâches, produits, modèles et profil.",
             "Ajout d'une page profil freelance éditable pour présenter parcours, compétences, projets, tarifs et liens professionnels."
         ],
-        "sectionsDetails": [
-            {
-                "title": "Pourquoi ce projet est montrable",
-                "content": [
-                    "Le dossier contient une vraie structure applicative avec routes, vues, stores et composants.",
-                    "Le sujet est directement compréhensible pour une agence : gestion de clients, devis, factures et projets web.",
-                    "Le projet montre une capacité à penser un outil métier au-delà d'une simple page vitrine."
-                ]
-            }
-        ],
+        "sectionsDetails": [],
         "medias": [
             {
                 "type": "image",
-                "src": "public/assets/images/freelance-webcore-preview.png",
-                "alt": "Visuel du projet Freelance WebCore",
-                "caption": "Visuel issu des assets du projet."
+                "src": "public/assets/images/freelance-webcore-preview-details-client.png",
+                "alt": "Capture de la page détail client de l'application Freelance WebCore",
+                "caption": "Header de la version précédente"
+            },
+            {
+                "type": "image",
+                "src": "public/assets/images/freelance-webcore-preview-dashboard.png",
+                "alt": "Capture du dashboard de l'application Freelance WebCore",
+                "caption": "Header de la nouvelle version"
+            },
+            {
+                "type": "image",
+                "src": "public/assets/images/freelance-webcore-preview-agenda.png",
+                "alt": "Capture de la page agenda de l'application Freelance WebCore",
+                "caption": "Header de la nouvelle version"
             }
         ],
-        "apercu": "public/assets/images/freelance-webcore-preview.png",
+        "apercu": "public/assets/images/freelancewebcore_logo.png",
         "apercu_alt": "Aperçu du projet Freelance WebCore",
         "apercuVideo": null,
         "site": null,
         "github": null,
         "showInCV": true
-    },
-    {
-        "id": "quarko",
-        "title": "Quarko",
-        "year": 2026,
-        "type": "Plateforme d'apprentissage",
-        "status": "En cours",
-        "eyebrow": "Projet personnel",
-        "lead": "Plateforme d'apprentissage interactive et gamifiée basée sur un arbre de connaissances, avec authentification, progression utilisateur, cours, thèmes et CMS Strapi associé.",
-        "objectif": "Imaginer une expérience d'apprentissage plus progressive et motivante, où les notions se débloquent selon les prérequis et la progression de l'utilisateur.",
-        "tech": [
-            "Vue.js",
-            "TypeScript",
-            "Supabase",
-            "Strapi",
-            "Vue Router",
-            "Gamification"
-        ],
-        "travailRealise": [
-            "Création d'une interface Vue/TypeScript avec pages d'accueil, dashboard, exploration, thèmes et cours.",
-            "Mise en place d'une authentification Supabase avec routes protégées.",
-            "Conception du concept d'arbre de connaissances et de progression gamifiée.",
-            "Préparation d'un CMS Strapi séparé pour structurer les contenus pédagogiques.",
-            "Création d'un vault de contenu et de scripts Node pour préparer l'organisation des connaissances."
-        ],
-        "sectionsDetails": [
-            {
-                "title": "Ce que contient le dossier",
-                "content": [
-                    "Un frontend Vue/TypeScript avec composants de cours, cartes, barre de progression, navigation et authentification.",
-                    "Un dossier CMS Strapi pour la partie back-office.",
-                    "Un espace Obsidian et des scripts de génération de contenu autour de l'arbre de connaissances."
-                ]
-            }
-        ],
-        "medias": [
-            {
-                "type": "image",
-                "src": "public/assets/images/quarko-preview.png",
-                "alt": "Logo du projet Quarko",
-                "caption": "Identité visuelle du projet Quarko."
-            }
-        ],
-        "apercu": "public/assets/images/quarko-preview.png",
-        "apercu_alt": "Aperçu du projet Quarko",
-        "apercuVideo": null,
-        "site": null,
-        "github": null,
-        "showInCV": false
-    },
-    {
-        "id": "planeat-app",
-        "title": "PlanEat",
-        "year": 2026,
-        "type": "Application web",
-        "status": "En cours",
-        "eyebrow": "Projet personnel",
-        "lead": "Application Vue/TypeScript de planification de repas avec recettes, planning, liste de courses, stock et suggestions pour aider à organiser les repas de la semaine.",
-        "objectif": "Réduire la charge mentale liée aux repas en regroupant planification, recettes, courses et gestion du stock dans une interface claire.",
-        "tech": [
-            "Vue.js",
-            "TypeScript",
-            "Pinia",
-            "Vue Router",
-            "UX produit",
-            "Local data"
-        ],
-        "travailRealise": [
-            "Structuration d'une application avec dashboard, recettes, planning, courses, stock et suggestions.",
-            "Création de stores Pinia séparés pour le dashboard, le planning, les recettes, les courses et le stock.",
-            "Définition des types de données liés aux recettes et aux produits.",
-            "Travail de conception produit documenté dans des notes et fichiers de cadrage."
-        ],
-        "sectionsDetails": [
-            {
-                "title": "Potentiel portfolio",
-                "content": [
-                    "Le besoin utilisateur est concret et facile à comprendre.",
-                    "Le projet permet de montrer une réflexion UX : organisation hebdomadaire, courses, stock, suggestions.",
-                    "La stack TypeScript apporte un signal de sérieux technique."
-                ]
-            }
-        ],
-        "medias": [
-            {
-                "type": "image",
-                "src": "public/assets/images/planeat-preview.svg",
-                "alt": "Visuel du projet PlanEat",
-                "caption": "Icône issue des assets du projet."
-            }
-        ],
-        "apercu": "public/assets/images/planeat-preview.svg",
-        "apercu_alt": "Aperçu du projet PlanEat",
-        "apercuVideo": null,
-        "site": null,
-        "github": null,
-        "showInCV": false
     },
     {
         "id": "lagem-app",
@@ -461,109 +366,25 @@
         "medias": [
             {
                 "type": "image",
-                "src": "public/assets/images/lagem-preview.jpg",
+                "src": "public/assets/images/lagemapp_login.png",
+                "alt": "Visuel du projet LAGEM App",
+                "caption": "Visuel issu des assets du projet."
+            },
+            {
+                "type": "image",
+                "src": "public/assets/images/lagemapp_agenda.png",
+                "alt": "Visuel du projet LAGEM App",
+                "caption": "Visuel issu des assets du projet."
+            },
+            {
+                "type": "image",
+                "src": "public/assets/images/lagemapp_new_event.png",
                 "alt": "Visuel du projet LAGEM App",
                 "caption": "Visuel issu des assets du projet."
             }
         ],
         "apercu": "public/assets/images/lagem-preview.jpg",
         "apercu_alt": "Aperçu du projet LAGEM App",
-        "apercuVideo": null,
-        "site": null,
-        "github": null,
-        "showInCV": false
-    },
-    {
-        "id": "parcourstech",
-        "title": "ParcoursTech",
-        "year": 2026,
-        "type": "Outil d'apprentissage",
-        "status": "Prototype",
-        "eyebrow": "Projet personnel",
-        "lead": "Application Vue permettant de construire et suivre un parcours d'apprentissage technique personnalisé, avec étapes, statuts, progression et export JSON.",
-        "objectif": "Aider à organiser une montée en compétences autour de projets concrets, en suivant les étapes à faire, en cours ou maîtrisées.",
-        "tech": [
-            "Vue.js",
-            "Vite",
-            "Vue Router",
-            "localStorage",
-            "JSON",
-            "UX pédagogique"
-        ],
-        "travailRealise": [
-            "Création des vues accueil, métiers, parcours, suivi et détail d'étape.",
-            "Définition d'un fichier de données pour structurer les parcours et compétences.",
-            "Mise en place d'un store de suivi avec persistance locale.",
-            "Ajout d'un export JSON du parcours."
-        ],
-        "sectionsDetails": [
-            {
-                "title": "Intérêt pour le portfolio",
-                "content": [
-                    "Le projet est cohérent avec ton image de développeuse en progression active.",
-                    "Il montre une capacité à transformer un besoin personnel en outil utilisable.",
-                    "Il complète bien les projets métier sans être trop lourd."
-                ]
-            }
-        ],
-        "medias": [
-            {
-                "type": "image",
-                "src": "public/assets/images/parcourstech-preview.png",
-                "alt": "Visuel du projet ParcoursTech",
-                "caption": "Visuel issu des assets du projet."
-            }
-        ],
-        "apercu": "public/assets/images/parcourstech-preview.png",
-        "apercu_alt": "Aperçu du projet ParcoursTech",
-        "apercuVideo": null,
-        "site": null,
-        "github": null,
-        "showInCV": false
-    },
-    {
-        "id": "phasmophobia-finder",
-        "title": "Phasmophobia Finder",
-        "year": 2026,
-        "type": "Outil ludique",
-        "status": "Prototype",
-        "eyebrow": "Projet personnel",
-        "lead": "Application Vue/TypeScript permettant de consulter des fantômes et leurs indices dans une interface simple, avec liste, fiches détail et données typées.",
-        "objectif": "Créer un outil de consultation rapide autour des fantômes et évidences du jeu, en travaillant le typage des données et la navigation entre liste et détail.",
-        "tech": [
-            "Vue.js",
-            "TypeScript",
-            "Vite",
-            "Vue Router",
-            "Données typées",
-            "Interface responsive"
-        ],
-        "travailRealise": [
-            "Création d'une liste de fantômes et de pages détail via Vue Router.",
-            "Structuration des données en TypeScript.",
-            "Intégration d'assets visuels pour les fantômes et les évidences.",
-            "Mise en place d'une interface de consultation simple et ciblée."
-        ],
-        "sectionsDetails": [
-            {
-                "title": "Positionnement",
-                "content": [
-                    "Projet personnel plus ludique que professionnel.",
-                    "Intéressant pour montrer TypeScript, données structurées et routage simple.",
-                    "À garder comme projet secondaire plutôt que comme preuve principale pour une agence."
-                ]
-            }
-        ],
-        "medias": [
-            {
-                "type": "image",
-                "src": "public/assets/images/phasmophobia-finder-preview.webp",
-                "alt": "Visuel du projet Phasmophobia Finder",
-                "caption": "Asset visuel issu du projet."
-            }
-        ],
-        "apercu": "public/assets/images/phasmophobia-finder-preview.webp",
-        "apercu_alt": "Aperçu du projet Phasmophobia Finder",
         "apercuVideo": null,
         "site": null,
         "github": null,

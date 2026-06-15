@@ -20,7 +20,7 @@
             Retour au site
         </a>
         <div class="cv-toolbar-right">
-            <span class="cv-print-hint">CV généré depuis les données du portfolio</span>
+            <!--<span class="cv-print-hint">CV généré depuis les données du portfolio</span>-->
             <button type="button" class="cv-print-btn" onclick="window.downloadCVasPDF()">
                 <i class="fa fa-download" aria-hidden="true"></i>
                 Enregistrer en PDF
@@ -36,16 +36,16 @@
         <article class="cv-document" role="main" aria-label="Curriculum vitae - Laurélenne Poussin">
             <header class="cv-header">
                 <div class="cv-header-photo-wrap">
-                    <img
+                    <!--<img
                         src="public/assets/images/lp-logo.png"
                         class="cv-photo"
                         width="88"
                         height="88"
-                        alt="Logo Laurélenne Poussin">
-                    <span class="cv-avail-badge">
+                        alt="Logo Laurélenne Poussin">-->
+                    <!--<span class="cv-avail-badge">
                         <span class="cv-avail-dot" aria-hidden="true"></span>
                         Disponible
-                    </span>
+                    </span>-->
                 </div>
 
                 <div class="cv-header-info">
@@ -73,21 +73,208 @@
             </header>
 
             <div class="cv-body-grid">
-                <main class="cv-main-col">
-                    <section class="cv-section">
-                        <h2 class="cv-section-title">Réalisations</h2>
-                        <div id="cv-projects" class="cv-projects">
-                            <p class="cv-loading" aria-live="polite">Chargement...</p>
-                        </div>
-                    </section>
+<main class="cv-main-col">
 
-                    <section class="cv-section">
-                        <h2 class="cv-section-title">Parcours</h2>
-                        <div id="cv-timeline" class="cv-timeline">
-                            <p class="cv-loading" aria-live="polite">Chargement...</p>
-                        </div>
-                    </section>
-                </main>
+    <section class="cv-section">
+        <h2 class="cv-section-title">Expériences</h2>
+
+        <div class="cv-timeline">
+
+            <div class="cv-tl-item">
+                <div class="cv-tl-date">2024</div>
+                <div class="cv-tl-body">
+                    <span class="cv-tl-kind">Freelance</span>
+                    <p class="cv-tl-title">
+                        Développeuse Web Freelance
+                        <span class="cv-tl-lieu">- Clicly, Incubateur d'entreprise, Marmande</span>
+                    </p>
+                    <p class="cv-tl-desc">
+                        Création d’une activité en couveuse d’entreprise autour de la conception de sites web,
+                        d’identités visuelles et de sites WordPress. Gestion de projet de A à Z : recueil des besoins,
+                        conception, intégration, SEO on-page et accompagnement client.
+                    </p>
+                    <div class="cv-tl-chips">
+                        <span class="cv-tl-chip">WordPress</span>
+                        <span class="cv-tl-chip">SEO</span>
+                        <span class="cv-tl-chip">UX/UI</span>
+                        <span class="cv-tl-chip">HTML</span>
+                        <span class="cv-tl-chip">CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-tl-item">
+                <div class="cv-tl-date">2020</div>
+                <div class="cv-tl-body">
+                    <span class="cv-tl-kind">Stage</span>
+                    <p class="cv-tl-title">
+                        Stagiaire Développeuse Web
+                        <span class="cv-tl-lieu">- SIDY, Montpellier</span>
+                    </p>
+                    <p class="cv-tl-desc">
+                        Développement d’un module de chat en temps réel intégré à une application de gestion
+                        de prestataires.
+                    </p>
+                    <div class="cv-tl-chips">
+                        <span class="cv-tl-chip">Vue.js</span>
+                        <span class="cv-tl-chip">Node.js</span>
+                        <span class="cv-tl-chip">GraphQL</span>
+                        <span class="cv-tl-chip">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-tl-item">
+                <div class="cv-tl-date">2020</div>
+                <div class="cv-tl-body">
+                    <span class="cv-tl-kind">Stage</span>
+                    <p class="cv-tl-title">
+                        Stagiaire Développeuse Web
+                        <span class="cv-tl-lieu">- WebbyJC, Montferrier</span>
+                    </p>
+                    <p class="cv-tl-desc">
+                        Conception et développement d’un site vitrine dédié à un service de garde d’animaux,
+                        avec participation à l’intégration, la structuration des pages et l’interface utilisateur.
+                    </p>
+                    <div class="cv-tl-chips">
+                        <span class="cv-tl-chip">HTML</span>
+                        <span class="cv-tl-chip">CSS</span>
+                        <span class="cv-tl-chip">Webflow</span>
+                        <span class="cv-tl-chip">UX/UI</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cv-section">
+        <h2 class="cv-section-title">Formations & Diplômes</h2>
+
+        <div class="cv-timeline">
+
+            <div class="cv-tl-item">
+                <div class="cv-tl-date">2020</div>
+                <div class="cv-tl-body">
+                    <span class="cv-tl-kind">Formation</span>
+                    <p class="cv-tl-title">
+                        Formation Concepteur Développeur d’Applications
+                        <span class="cv-tl-lieu">- GRETA Montpellier</span>
+                    </p>
+                    <p class="cv-tl-desc">
+                        Formation suivie, préparant au titre professionnel de niveau Bac +3/4 :
+                        conception d’applications, architecture n-tiers, bases de données et projet en équipe.
+                    </p>
+                    <div class="cv-tl-chips">
+                        <span class="cv-tl-chip">Frontend</span>
+                        <span class="cv-tl-chip">Backend</span>
+                        <span class="cv-tl-chip">Base de données</span>
+                        <span class="cv-tl-chip">Projet n-tiers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-tl-item">
+                <div class="cv-tl-date">2020</div>
+                <div class="cv-tl-body">
+                    <span class="cv-tl-kind">Diplôme</span>
+                    <p class="cv-tl-title">
+                        Développeuse Web et Web Mobile
+                        <span class="cv-tl-lieu">- ADRAR Montpellier</span>
+                    </p>
+                    <p class="cv-tl-desc">
+                        Titre professionnel Développeur Web et Web Mobile, niveau Bac +2.
+                    </p>
+                </div>
+            </div>
+
+            <div class="cv-tl-item">
+                <div class="cv-tl-date">2019</div>
+                <div class="cv-tl-body">
+                    <span class="cv-tl-kind">Formation</span>
+                    <p class="cv-tl-title">
+                        Développeuse Web Java
+                        <span class="cv-tl-lieu">- ADRAR Montpellier</span>
+                    </p>
+                    <p class="cv-tl-desc">
+                        Formation préparant au titre professionnel Développeur Web et Web Mobile :
+                        interfaces web, bases de données, composants back-end et projet n-tiers.
+                    </p>
+                    <div class="cv-tl-chips">
+                        <span class="cv-tl-chip">HTML</span>
+                        <span class="cv-tl-chip">CSS</span>
+                        <span class="cv-tl-chip">JavaScript</span>
+                        <span class="cv-tl-chip">Java</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cv-section">
+        <h2 class="cv-section-title">Réalisations sélectionnées</h2>
+
+        <div class="cv-projects">
+
+            <article class="cv-proj">
+                <div class="cv-proj-meta">
+                    <span class="cv-proj-year">2026</span>
+                    <span class="cv-proj-type">Application métier</span>
+                </div>
+                <p class="cv-proj-title">Freelance WebCore</p>
+                <p class="cv-proj-lead">
+                    Prototype d’application Vue pour centraliser la gestion d’une activité freelance :
+                    clients, leads, devis, factures, projets, tâches, agenda et finances.
+                </p>
+                <div class="cv-proj-chips">
+                    <span class="cv-proj-chip">Vue.js</span>
+                    <span class="cv-proj-chip">Vite</span>
+                    <span class="cv-proj-chip">Pinia</span>
+                    <span class="cv-proj-chip">Vue Router</span>
+                </div>
+            </article>
+
+            <article class="cv-proj">
+                <div class="cv-proj-meta">
+                    <span class="cv-proj-year">2026</span>
+                    <span class="cv-proj-type">Portfolio</span>
+                </div>
+                <p class="cv-proj-title">Refonte CV Portfolio</p>
+                <p class="cv-proj-lead">
+                    Site CV responsive et animé, sans framework JavaScript, avec architecture CSS modulaire
+                    et données externalisées en JSON.
+                </p>
+                <div class="cv-proj-chips">
+                    <span class="cv-proj-chip">HTML</span>
+                    <span class="cv-proj-chip">CSS</span>
+                    <span class="cv-proj-chip">JavaScript</span>
+                    <span class="cv-proj-chip">GitHub Pages</span>
+                </div>
+            </article>
+
+            <article class="cv-proj">
+                <div class="cv-proj-meta">
+                    <span class="cv-proj-year">2025</span>
+                    <span class="cv-proj-type">Site vitrine WordPress</span>
+                </div>
+                <p class="cv-proj-title">Clicly.fr</p>
+                <p class="cv-proj-lead">
+                    Site vitrine WordPress conçu pour présenter une offre de création de sites web,
+                    structurer des pages de services et travailler les bases du SEO on-page.
+                </p>
+                <div class="cv-proj-chips">
+                    <span class="cv-proj-chip">WordPress</span>
+                    <span class="cv-proj-chip">CSS personnalisé</span>
+                    <span class="cv-proj-chip">SEO on-page</span>
+                    <span class="cv-proj-chip">Google Analytics</span>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+</main>
 
                 <aside class="cv-sidebar-col">
                     <section class="cv-section">
@@ -119,6 +306,34 @@
                             </li>
                         </ul>
                     </section>
+                    <section class="cv-section">
+    <h2 class="cv-section-title">Portfolio en ligne</h2>
+
+<div class="cv-portfolio-link">
+
+    <div class="cv-portfolio-qr">
+        <img
+            src="public/assets/images/qr_code.jpg"
+            alt="QR Code vers le portfolio">
+    </div>
+
+    <div class="cv-portfolio-content">
+        <p>
+            Pour en savoir plus sur mon parcours,
+            mes compétences et mes projets,
+            consultez mon portfolio en ligne.
+        </p>
+
+        <a
+            href="https://laurelenne.github.io/cv-portfolio/"
+            target="_blank"
+            rel="noopener noreferrer">
+            laurelenne.github.io/cv-portfolio
+        </a>
+    </div>
+
+</div>
+</section>
                 </aside>
             </div>
         </article>

@@ -697,3 +697,24 @@ a:hover {
         gap: 0.32rem;
     }
 }
+
+.cv-portfolio-link {
+    text-align: center;
+}
+
+.cv-portfolio-link a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    word-break: break-word;
+}
+
+.cv-portfolio-qr {
+    margin-top: 1rem;
+}
+
+.cv-portfolio-qr img {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+}
