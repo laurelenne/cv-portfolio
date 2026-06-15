@@ -1,72 +1,24 @@
-/* Header PDF : fond bleu foncé et padding latéral uniquement à l'export */
-
-
-.pdf-export .cv-sidebar-col {
-  padding-left: 1.2cm !important;
-  padding-right: 1.2cm !important;
-}
-/* Fond bleu foncé uniquement pour le header PDF */
-.pdf-export .cv-header {
-  background: linear-gradient(125deg, rgba(7, 19, 33, 0.92), rgba(14, 32, 53, 0.82)) !important;
-}
-.pdf-export .cv-sidebar-col {
-  padding-left: 1.2cm !important;
-  padding-right: 1.2cm !important;
-}
-/* Suppression radicale de tout blanc lors de l'export PDF */
-.pdf-export .cv-page-bg, .pdf-export .cv-document, .pdf-export .cv-header, .pdf-export .cv-body-grid, .pdf-export .cv-main-col, .pdf-export .cv-sidebar-col {
-  background: #fff !important;
-}
+.pdf-export,
+.pdf-export body,
 .pdf-export .cv-page-bg {
-  background: #fff !important;
-  margin: 0 !important;
-  padding: 0 !important;
+    background: #fff !important;
 }
-html, body {
-  background: #fff !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
- .pdf-export .cv-sidebar-col {
-  padding: 0.5cm 0.7cm 0.5cm 0.7cm !important;
-}
-.pdf-export .cv-page-bg {
-  margin: 0 !important;
-  padding: 0 !important;
-  background: #fff !important;
-}
+
+.pdf-export .cv-page-bg,
 .pdf-export .cv-document {
-  margin: 0 !important;
-  padding: 0 !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-}
-/* Styles spécifiques pour l'export PDF via html2pdf.js */
- .pdf-export .cv-header-info {
-  min-height: 0 !important;
-}
- .pdf-export .cv-body-grid {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
- .pdf-export .cv-header > * {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
- .pdf-export .cv-document {
-  margin: 0 !important;
-  padding: 0 !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
-}
- .pdf-export .cv-header-info {
-  margin: 0 !important;
-  padding: 0 !important;
-}
- .pdf-export .cv-body-grid {
-  margin: 0 !important;
-  padding: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
 
+.pdf-export .cv-header {
+    padding: 0.9rem 1rem !important;
+}
+
+.pdf-export .cv-main-col,
+.pdf-export .cv-sidebar-col {
+    padding: 0.8rem 0.9rem !important;
+}

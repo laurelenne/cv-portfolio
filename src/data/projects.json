@@ -21,7 +21,8 @@
         "apercu": "public/assets/images/evolution-screenshot.png",
         "apercu_alt": "Aperçu du projet Evolution",
         "apercuVideo": null,
-        "github": "https://github.com/laurelenne/evolution"
+        "github": "https://github.com/laurelenne/evolution",
+        "showInCV": false
     },
     {
         "id": "risk-jules-verne",
@@ -75,8 +76,9 @@
         ],
         "apercu": "public/assets/images/capture-mapgame.png",
         "apercu_alt": "Aperçu du projet Risk Jules Verne",
-        "apercuVideo": "public/assets/videos/menu-demo.webp",
-        "github": "https://github.com/laurelenne/riskjulesverne"
+        "apercuVideo": null,
+        "github": "https://github.com/laurelenne/riskjulesverne",
+        "showInCV": false
     },
     {
         "id": "portail-integrations",
@@ -107,8 +109,9 @@
         ],
         "apercu": "public/assets/images/portail-integrations.png",
         "apercu_alt": "Aperçu du Portail Intégrations",
-        "apercuVideo": "public/assets/gif/portail-integration-demo.gif",
-        "github": "https://github.com/laurelenne/integrations"
+        "apercuVideo": null,
+        "github": "https://github.com/laurelenne/integrations",
+        "showInCV": false
     },
     {
         "id": "cv-portfolio",
@@ -146,9 +149,10 @@
         ],
         "apercu": "public/assets/images/capture-ancienne-version-cv.png",
         "apercu_alt": "Aperçu du CV Portfolio",
-        "apercuVideo": "public/assets/gif/cv-portfolio.gif",
+        "apercuVideo": null,
         "site": "https://laurelenne.github.io/cv-portfolio/",
-        "github": "https://github.com/laurelenne/cv-portfolio"
+        "github": "https://github.com/laurelenne/cv-portfolio",
+        "showInCV": true
     },
     {
         "id": "concert-noel-cancon-2025",
@@ -198,39 +202,47 @@
         "apercu_alt": "Aperçu du projet Ensemble, chantons Noël sous la halle",
         "apercuVideo": null,
         "site": "https://laurelenne.github.io/concert-noel-cancon-2025/",
-        "github": "https://github.com/laurelenne/concert-noel-cancon-2025"
+        "github": "https://github.com/laurelenne/concert-noel-cancon-2025",
+        "showInCV": false
     },
     {
         "id": "clicly.fr",
         "title": "Clicly.fr",
         "year": 2025,
         "type": "Site vitrine WordPress",
-        "status": "En pause",
+        "status": "Terminé",
         "eyebrow": "Étude de cas",
-        "lead": "Site vitrine realise pendant mon passage en incubateur pour promouvoir mes services de creation de sites WordPress.",
-        "objectif": "Promouvoir mes prestations web et faciliter la prise de contact client avec une presentation claire des offres.",
+        "lead": "Site vitrine WordPress réalisé pendant mon passage en incubateur pour présenter une offre de création de sites web, structurer des pages de services et travailler les bases SEO on-page.",
+        "objectif": "Construire une présence web claire pour une activité de création de sites WordPress : expliquer les offres, rassurer les visiteurs, faciliter la prise de contact et poser les fondations du référencement naturel.",
         "tech": [
             "WordPress",
-            "CSS personnalise",
+            "CSS personnalisé",
             "SEO on-page",
             "Google Analytics",
             "Plugin de formulaire",
-            "Plugin de reservation d'appel"
+            "Plugin de réservation d'appel"
         ],
         "travailRealise": [
-            "Creation de la direction artistique du site.",
-            "Conception du logo principal et des assets visuels.",
-            "Structuration des pages services et des offres.",
-            "Configuration SEO de base et suivi analytics.",
-            "Mise en place de formulaires et d'un systeme de reservation d'appel."
+            "Création de la direction artistique du site et déclinaison des visuels de marque.",
+            "Structuration des pages de services, des offres et des appels à l'action.",
+            "Rédaction et optimisation des titres, méta-descriptions, contenus de page et maillage interne de base.",
+            "Configuration des bases de suivi avec Google Analytics et vérification des parcours de conversion.",
+            "Mise en place de formulaires et d'un système de réservation d'appel."
         ],
         "sectionsDetails": [
             {
                 "title": "Cible et usage",
                 "content": [
-                    "Site destine a des independants et petites structures recherchant un site vitrine WordPress.",
-                    "Parcours concu pour orienter rapidement vers les offres et la prise de rendez-vous.",
-                    "Le projet est actuellement en pause suite a l'arret de l'hebergement Hostinger."
+                    "Site réalisé pour une activité de création de sites WordPress, visant des clients potentiels recherchant un prestataire fiable et compétent.",
+                    "Parcours conçu pour orienter rapidement vers les offres, les preuves de sérieux et la prise de rendez-vous."
+                ]
+            },
+            {
+                "title": "Apports SEO / WordPress",
+                "content": [
+                    "Travail sur la hiérarchie Hn, les titres de pages, les méta-descriptions et les textes d'introduction.",
+                    "Organisation des contenus autour des intentions : création de site vitrine, accompagnement WordPress, identité visuelle.",
+                    "Choix et configuration de plugins utiles sans surcharger le site."
                 ]
             }
         ],
@@ -238,32 +250,144 @@
             {
                 "type": "image",
                 "src": "public/assets/images/clicly-capture-1.jpg",
-                "alt": "Visuel temporaire du projet Clicly.fr",
-                "caption": "Visuel temporaire en attendant l'ajout des captures d'ecran du site"
+                "alt": "Capture de la page d'accueil du projet Clicly.fr",
+                "caption": "Page d'accueil : positionnement, promesse et appel à l'action principal."
                 },
                 {
                 "type": "image",
                 "src": "public/assets/images/clicly-capture-2.jpg",
-                "alt": "Visuel temporaire du projet Clicly.fr",
-                "caption": "Visuel temporaire en attendant l'ajout des captures d'ecran du site"
+                "alt": "Capture d'une section services du projet Clicly.fr",
+                "caption": "Présentation des services avec une structure pensée pour la compréhension rapide."
             },
                 {
                 "type": "image",
                 "src": "public/assets/images/clicly-capture-3.jpg",
-                "alt": "Visuel temporaire du projet Clicly.fr",
-                "caption": "Visuel temporaire en attendant l'ajout des captures d'ecran du site"
+                "alt": "Capture d'une section offre du projet Clicly.fr",
+                "caption": "Mise en avant des offres et des éléments de réassurance."
             },
                 {
                 "type": "image",
                 "src": "public/assets/images/clicly-capture-4.jpg",
-                "alt": "Visuel temporaire du projet Clicly.fr",
-                "caption": "Visuel temporaire en attendant l'ajout des captures d'ecran du site"
+                "alt": "Capture d'une section contact du projet Clicly.fr",
+                "caption": "Parcours de conversion vers le formulaire ou la réservation d'appel."
             }
         ],
         "apercu": "public/assets/images/clicly.png",
-        "apercu_alt": "Apercu temporaire du projet Clicly.fr",
+        "apercu_alt": "Aperçu du projet WordPress Clicly.fr",
         "apercuVideo": null,
         "site": null,
-        "github": null
+        "github": null,
+        "showInCV": true
+    },
+    {
+        "id": "freelance-webcore",
+        "title": "Freelance WebCore",
+        "year": 2026,
+        "type": "Application métier",
+        "status": "Prototype",
+        "eyebrow": "Projet personnel",
+        "lead": "Application Vue pensée pour centraliser l'activité d'un freelance web : clients, leads, devis, factures, projets, tâches, agenda, finances et profil professionnel.",
+        "objectif": "Concevoir un outil de pilotage complet pour indépendants du web, avec une navigation claire entre gestion commerciale, suivi projet et présentation du profil freelance.",
+        "tech": [
+            "Vue.js",
+            "Vite",
+            "Pinia",
+            "Vue Router",
+            "Dashboard",
+            "UX applicative"
+        ],
+        "travailRealise": [
+            "Structuration d'une application multi-pages avec layout principal et routage Vue Router.",
+            "Création de vues métier : clients, leads, devis, factures, finances, projets, tâches, agenda et préférences.",
+            "Centralisation des données dans plusieurs stores Pinia dédiés aux clients, projets, tâches, produits, modèles et profil.",
+            "Ajout d'une page profil freelance éditable pour présenter parcours, compétences, projets, tarifs et liens professionnels."
+        ],
+        "sectionsDetails": [],
+        "medias": [
+            {
+                "type": "image",
+                "src": "public/assets/images/freelance-webcore-preview-details-client.png",
+                "alt": "Capture de la page détail client de l'application Freelance WebCore",
+                "caption": "Header de la version précédente"
+            },
+            {
+                "type": "image",
+                "src": "public/assets/images/freelance-webcore-preview-dashboard.png",
+                "alt": "Capture du dashboard de l'application Freelance WebCore",
+                "caption": "Header de la nouvelle version"
+            },
+            {
+                "type": "image",
+                "src": "public/assets/images/freelance-webcore-preview-agenda.png",
+                "alt": "Capture de la page agenda de l'application Freelance WebCore",
+                "caption": "Header de la nouvelle version"
+            }
+        ],
+        "apercu": "public/assets/images/freelancewebcore_logo.png",
+        "apercu_alt": "Aperçu du projet Freelance WebCore",
+        "apercuVideo": null,
+        "site": null,
+        "github": null,
+        "showInCV": true
+    },
+    {
+        "id": "lagem-app",
+        "title": "LAGEM App",
+        "year": 2026,
+        "type": "Application communautaire",
+        "status": "Prototype",
+        "eyebrow": "Projet personnel",
+        "lead": "Application Vue pour gérer une communauté autour du jeu : événements, fiches jeux, profils utilisateurs, inscription, connexion et formulaires d'administration.",
+        "objectif": "Créer une base applicative pour présenter des événements et des jeux, avec des parcours utilisateur et des actions réservées aux personnes connectées.",
+        "tech": [
+            "Vue.js",
+            "Vite",
+            "Pinia",
+            "Vue Router",
+            "Formulaires",
+            "CRUD"
+        ],
+        "travailRealise": [
+            "Mise en place des routes principales : accueil, événements, détail/édition d'événement, jeux, détail/édition de jeu, login, inscription et profil.",
+            "Création de stores Pinia pour les événements, les jeux et les utilisateurs.",
+            "Ajout d'une protection de route pour réserver certaines actions aux utilisateurs connectés.",
+            "Organisation des composants de formulaire et des pages métier."
+        ],
+        "sectionsDetails": [
+            {
+                "title": "Ce que le projet démontre",
+                "content": [
+                    "Une logique CRUD complète sur plusieurs entités.",
+                    "Une première gestion des rôles/parcours avec route protégée.",
+                    "Une capacité à structurer une app orientée communauté."
+                ]
+            }
+        ],
+        "medias": [
+            {
+                "type": "image",
+                "src": "public/assets/images/lagemapp_login.png",
+                "alt": "Visuel du projet LAGEM App",
+                "caption": "Visuel issu des assets du projet."
+            },
+            {
+                "type": "image",
+                "src": "public/assets/images/lagemapp_agenda.png",
+                "alt": "Visuel du projet LAGEM App",
+                "caption": "Visuel issu des assets du projet."
+            },
+            {
+                "type": "image",
+                "src": "public/assets/images/lagemapp_new_event.png",
+                "alt": "Visuel du projet LAGEM App",
+                "caption": "Visuel issu des assets du projet."
+            }
+        ],
+        "apercu": "public/assets/images/lagem-preview.jpg",
+        "apercu_alt": "Aperçu du projet LAGEM App",
+        "apercuVideo": null,
+        "site": null,
+        "github": null,
+        "showInCV": false
     }
 ]

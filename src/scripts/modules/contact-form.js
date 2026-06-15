@@ -44,10 +44,10 @@
                 })
                 .then(function () {
                     form.reset();
-                    setStatus(statusEl, "Message envoye. Merci, je vous reponds rapidement.", "is-success");
+                    setStatus(statusEl, "Message envoyé. Merci, je vous réponds rapidement.", "is-success");
                 })
                 .catch(function () {
-                    setStatus(statusEl, "Envoi impossible pour le moment. Essayez a nouveau dans quelques instants.", "is-error");
+                    setStatus(statusEl, "Envoi impossible pour le moment. Essayez à nouveau dans quelques instants.", "is-error");
                 })
                 .finally(function () {
                     if (submitBtn) submitBtn.disabled = false;
