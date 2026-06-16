@@ -18,7 +18,15 @@
             "Mise en place de mecaniques d'evolution et de progression.",
             "Coordination en equipe sur le decoupage et l'integration."
         ],
-        "apercu": "public/assets/images/evolution-screenshot.png",
+        "medias": [
+            {
+                "type": "image",
+                "src": "public/assets/images/content-projets/evolution-gameplay.webp",
+                "alt": "Capture du gameplay du projet Evolution Clicker",
+                "caption": "Interface de jeu avec les mecaniques de progression."
+            }
+        ],
+        "apercu": "public/assets/images/preview-projets/evolution-preview.webp",
         "apercu_alt": "Aperçu du projet Evolution",
         "apercuVideo": null,
         "github": "https://github.com/laurelenne/evolution",
@@ -63,18 +71,18 @@
         "medias": [
             {
                 "type": "image",
-                "src": "public/assets/images/capture-ancienne-mapgame.png",
+                "src": "public/assets/images/content-projets/risk-jules-verne-mapgame-ancienne-version.webp",
                 "alt": "Ancienne version de la carte Risk Jules Verne",
                 "caption": "Premier rendu de l'ecran mapgame"
             },
             {
                 "type": "image",
-                "src": "public/assets/images/capture-mapgame.png",
+                "src": "public/assets/images/content-projets/risk-jules-verne-mapgame.webp",
                 "alt": "Version recente de la carte Risk Jules Verne",
                 "caption": "Carte de jeu utilisee pendant la partie"
             }
         ],
-        "apercu": "public/assets/images/capture-mapgame.png",
+        "apercu": "public/assets/images/preview-projets/risk-jules-verne-preview.webp",
         "apercu_alt": "Aperçu du projet Risk Jules Verne",
         "apercuVideo": null,
         "github": "https://github.com/laurelenne/riskjulesverne",
@@ -102,12 +110,12 @@
         "medias": [
             {
                 "type": "image",
-                "src": "public/assets/images/portail-integrations.png",
+                "src": "public/assets/images/preview-projets/portail-integrations-preview.webp",
                 "alt": "Capture du Portail Intégrations",
                 "caption": "Vue d'ensemble des intégrations publiées"
             }
         ],
-        "apercu": "public/assets/images/portail-integrations.png",
+        "apercu": "public/assets/images/preview-projets/portail-integrations-preview.webp",
         "apercu_alt": "Aperçu du Portail Intégrations",
         "apercuVideo": null,
         "github": "https://github.com/laurelenne/integrations",
@@ -136,18 +144,18 @@
         "medias": [
             {
                 "type": "image",
-                "src": "public/assets/images/capture-ancienne-version-cv.png",
+                "src": "public/assets/images/content-projets/cv-portfolio-ancienne-version.webp",
                 "alt": "Capture de la page d'accueil du CV Portfolio",
                 "caption": "Header de la version précédente"
             },
             {
                 "type": "image",
-                "src": "public/assets/images/capture-refonte-cv-portfolio.png",
+                "src": "public/assets/images/content-projets/cv-portfolio-refonte.webp",
                 "alt": "Capture de la page d'accueil du CV Portfolio refondu",
                 "caption": "Header de la nouvelle version"
             }
         ],
-        "apercu": "public/assets/images/capture-ancienne-version-cv.png",
+        "apercu": "public/assets/images/preview-projets/cv-portfolio-preview.webp",
         "apercu_alt": "Aperçu du CV Portfolio",
         "apercuVideo": null,
         "site": "https://laurelenne.github.io/cv-portfolio/",
@@ -193,12 +201,12 @@
         "medias": [
             {
                 "type": "image",
-                "src": "public/assets/images/affiche-concert-noel-cancon-2025.jpg",
+                "src": "public/assets/images/preview-projets/concert-noel-cancon-2025-preview.webp",
                 "alt": "Visuel du projet Ensemble, chantons Noël sous la halle",
                 "caption": "Affiche du concert de Noël à Cancon, support visuel du projet, réalisée par l'association organisatrice et utilisée pour la promotion de l'événement."
             }
         ],
-        "apercu": "public/assets/images/affiche-concert-noel-cancon-2025.jpg",
+        "apercu": "public/assets/images/preview-projets/concert-noel-cancon-2025-preview.webp",
         "apercu_alt": "Aperçu du projet Ensemble, chantons Noël sous la halle",
         "apercuVideo": null,
         "site": "https://laurelenne.github.io/concert-noel-cancon-2025/",
@@ -249,30 +257,30 @@
         "medias": [
             {
                 "type": "image",
-                "src": "public/assets/images/clicly-capture-1.jpg",
+                "src": "public/assets/images/content-projets/clicly-accueil.webp",
                 "alt": "Capture de la page d'accueil du projet Clicly.fr",
                 "caption": "Page d'accueil : positionnement, promesse et appel à l'action principal."
                 },
                 {
                 "type": "image",
-                "src": "public/assets/images/clicly-capture-2.jpg",
+                "src": "public/assets/images/content-projets/clicly-services.webp",
                 "alt": "Capture d'une section services du projet Clicly.fr",
                 "caption": "Présentation des services avec une structure pensée pour la compréhension rapide."
             },
                 {
                 "type": "image",
-                "src": "public/assets/images/clicly-capture-3.jpg",
+                "src": "public/assets/images/content-projets/clicly-offres.webp",
                 "alt": "Capture d'une section offre du projet Clicly.fr",
                 "caption": "Mise en avant des offres et des éléments de réassurance."
             },
                 {
                 "type": "image",
-                "src": "public/assets/images/clicly-capture-4.jpg",
+                "src": "public/assets/images/content-projets/clicly-contact.webp",
                 "alt": "Capture d'une section contact du projet Clicly.fr",
                 "caption": "Parcours de conversion vers le formulaire ou la réservation d'appel."
             }
         ],
-        "apercu": "public/assets/images/clicly.png",
+        "apercu": "public/assets/images/preview-projets/clicly-preview.webp",
         "apercu_alt": "Aperçu du projet WordPress Clicly.fr",
         "apercuVideo": null,
         "site": null,
@@ -306,24 +314,24 @@
         "medias": [
             {
                 "type": "image",
-                "src": "public/assets/images/freelance-webcore-preview-details-client.png",
+                "src": "public/assets/images/content-projets/freelance-webcore-details-client.webp",
                 "alt": "Capture de la page détail client de l'application Freelance WebCore",
                 "caption": "Header de la version précédente"
             },
             {
                 "type": "image",
-                "src": "public/assets/images/freelance-webcore-preview-dashboard.png",
+                "src": "public/assets/images/content-projets/freelance-webcore-dashboard.webp",
                 "alt": "Capture du dashboard de l'application Freelance WebCore",
                 "caption": "Header de la nouvelle version"
             },
             {
                 "type": "image",
-                "src": "public/assets/images/freelance-webcore-preview-agenda.png",
+                "src": "public/assets/images/content-projets/freelance-webcore-agenda.webp",
                 "alt": "Capture de la page agenda de l'application Freelance WebCore",
                 "caption": "Header de la nouvelle version"
             }
         ],
-        "apercu": "public/assets/images/freelancewebcore_logo.png",
+        "apercu": "public/assets/images/preview-projets/freelance-webcore-preview.webp",
         "apercu_alt": "Aperçu du projet Freelance WebCore",
         "apercuVideo": null,
         "site": null,
@@ -366,24 +374,18 @@
         "medias": [
             {
                 "type": "image",
-                "src": "public/assets/images/lagemapp_login.png",
+                "src": "public/assets/images/content-projets/lagem-app-agenda.webp",
                 "alt": "Visuel du projet LAGEM App",
                 "caption": "Visuel issu des assets du projet."
             },
             {
                 "type": "image",
-                "src": "public/assets/images/lagemapp_agenda.png",
-                "alt": "Visuel du projet LAGEM App",
-                "caption": "Visuel issu des assets du projet."
-            },
-            {
-                "type": "image",
-                "src": "public/assets/images/lagemapp_new_event.png",
+                "src": "public/assets/images/content-projets/lagem-app-new-event.webp",
                 "alt": "Visuel du projet LAGEM App",
                 "caption": "Visuel issu des assets du projet."
             }
         ],
-        "apercu": "public/assets/images/lagem-preview.jpg",
+        "apercu": "public/assets/images/preview-projets/lagem-app-preview.webp",
         "apercu_alt": "Aperçu du projet LAGEM App",
         "apercuVideo": null,
         "site": null,

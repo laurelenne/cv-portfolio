@@ -444,8 +444,8 @@ header > :not(#canvas):not(.primary-nav) {
     content: attr(data-tooltip);
     position: absolute;
     left: 50%;
-    bottom: calc(100% + 10px);
-    transform: translateX(-50%) translateY(4px);
+    top: calc(100% + 10px);
+    transform: translateX(-50%) translateY(-4px);
     padding: 0.24rem 0.5rem;
     border-radius: 7px;
     border: 1px solid rgba(125, 211, 252, 0.2);

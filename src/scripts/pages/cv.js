@@ -4,12 +4,15 @@
 
     var DATA_BASE = "src/data/";
     var ERR_MSG = "Données indisponibles. Ouvrez la page via un serveur web local.";
-    var DOMAIN_ORDER = ["frontend", "wordpress", "seo", "outils"];
+    var DOMAIN_ORDER = ["frontend", "wordpress", "seo", "backend", "bdd", "outils", "methodologie"];
     var CV_SKILL_KEYS = {
-        frontend: ["html", "css", "javascript", "vue", "responsive", "accessibilite"],
-        wordpress: ["wordpress", "astra", "gutenberg", "wordpress-css", "wordpress-forms", "wordpress-cache"],
-        seo: ["seo-on-page", "meta-title-description", "heading-structure", "content-optimization", "search-console", "google-analytics"],
-        outils: ["git", "github", "figma", "vscode", "canva"]
+        frontend: ["html", "css", "javascript", "vue", "responsive", "accessibilite", "bootstrap", "typescript", "json", "sass"],
+        wordpress: ["wordpress", "astra", "gutenberg", "wordpress-css", "wordpress-forms", "wordpress-cache", "wordpress-menus", "wordpress-seo-plugins"],
+        seo: ["seo-on-page", "meta-title-description", "heading-structure", "content-optimization", "search-console", "google-analytics", "keyword-research", "pagespeed", "lighthouse", "sitemap"],
+        backend: ["java", "spring", "rest", "poo", "mvc"],
+        bdd: ["sql", "postgresql", "mysql", "phpmyadmin"],
+        outils: ["git", "github", "figma", "vscode", "canva", "npm", "devtools", "postman"],
+        methodologie: ["markdown", "merise", "uml", "agile", "trello"]
     };
     var CV_TIMELINE_LIMITS = {
         experience: 4,
@@ -67,7 +70,10 @@
     }
 
     function buildSkillsHtml(data) {
-        var html = "";
+        var html = '<div class="cv-skills-legend" aria-label="Légende des niveaux de compétences">'
+            + '<span class="cv-skill-chip cv-skill-chip--mastery cv-skill-legend-chip">Maîtrise</span>'
+            + '<span class="cv-skill-chip cv-skill-chip--intermediate cv-skill-legend-chip">Intermédiaire / notions</span>'
+            + '</div>';
 
         sortDomains(data).forEach(function (domain) {
             var allowedKeys = CV_SKILL_KEYS[domain.domain];
@@ -75,7 +81,6 @@
 
             var shown = (domain.skills || []).filter(function (skill) {
                 return allowedKeys.indexOf(skill.key) !== -1
-                    && (skill.level === "mastery" || skill.level === "intermediate")
                     && skill.showInCV !== false;
             }).sort(function (a, b) {
                 return allowedKeys.indexOf(a.key) - allowedKeys.indexOf(b.key);

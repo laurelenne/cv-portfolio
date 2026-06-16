@@ -6,7 +6,7 @@
     <meta name="robots" content="noindex, nofollow">
     <meta name="theme-color" content="#071321">
     <title>CV - Laurélenne Poussin | Développeuse Web</title>
-    <link rel="icon" type="image/png" href="public/assets/images/lp-logo.png">
+    <link rel="icon" type="image/webp" href="public/assets/images/logo-lp.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
         </a>
         <div class="cv-toolbar-right">
             <!--<span class="cv-print-hint">CV généré depuis les données du portfolio</span>-->
-            <button type="button" class="cv-print-btn" onclick="window.downloadCVasPDF()">
+            <button type="button" class="cv-print-btn" data-cv-download onclick="window.downloadCVasPDF()">
                 <i class="fa fa-download" aria-hidden="true"></i>
                 Enregistrer en PDF
             </button>
@@ -36,12 +36,12 @@
         <article class="cv-document" role="main" aria-label="Curriculum vitae - Laurélenne Poussin">
             <header class="cv-header">
                 <div class="cv-header-photo-wrap">
-                    <!--<img
-                        src="public/assets/images/lp-logo.png"
+                    <img
+                        src="public/assets/images/photo-laurelenne-poussin-1x1.webp"
                         class="cv-photo"
                         width="88"
                         height="88"
-                        alt="Logo Laurélenne Poussin">-->
+                        alt="Photo de Laurélenne Poussin">
                     <!--<span class="cv-avail-badge">
                         <span class="cv-avail-dot" aria-hidden="true"></span>
                         Disponible
@@ -57,6 +57,10 @@
 
                     <ul class="cv-contacts" aria-label="Coordonnées">
                         <li>
+                            <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+                            <span>31 ans · Marmande · Permis B</span>
+                        </li>
+                        <li>
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                             <a href="mailto:poussin.laurelenne@gmail.com">poussin.laurelenne@gmail.com</a>
                         </li>
@@ -65,8 +69,8 @@
                             <a href="https://github.com/laurelenne" target="_blank" rel="noopener noreferrer">github.com/laurelenne</a>
                         </li>
                         <li>
-                            <i class="fab fa-linkedin" aria-hidden="true"></i>
-                            <a href="https://www.linkedin.com/in/laurelenne-poussin/" target="_blank" rel="noopener noreferrer">linkedin.com/in/laurelenne-poussin</a>
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="tel:+33638290250">06 38 29 02 50</a>
                         </li>
                     </ul>
                 </div>
@@ -274,6 +278,15 @@
         </div>
     </section>
 
+    <section class="cv-section cv-contribution-section">
+        <h2 class="cv-section-title">Ce que j'apporte</h2>
+        <div class="cv-contribution-grid">
+            <p>Une approche polyvalente entre développement web, UX/UI, WordPress et optimisation des pages.</p>
+            <p>Une attention forte à la structure, à la lisibilité des interfaces et à la clarté des parcours utilisateurs.</p>
+            <p>Disponible immédiatement, avec mobilité possible depuis Marmande.</p>
+        </div>
+    </section>
+
 </main>
 
                 <aside class="cv-sidebar-col">
@@ -289,7 +302,7 @@
                         <ul class="cv-bullets">
                             <li>Double regard développement, UX et contenu</li>
                             <li>Intérêt marqué pour WordPress et le SEO on-page</li>
-                            <li>Autonomie, curiosité et sens de la structure</li>
+                            <li>Autonomie, curiosité et goût du travail en équipe</li>
                         </ul>
                     </section>
 
@@ -313,7 +326,7 @@
 
     <div class="cv-portfolio-qr">
         <img
-            src="public/assets/images/qr_code.jpg"
+            src="public/assets/images/qr-code.jpg"
             alt="QR Code vers le portfolio">
     </div>
 

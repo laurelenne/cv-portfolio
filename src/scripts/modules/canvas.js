@@ -21,7 +21,7 @@
 
     /* ── Logo ── */
     var logoImg = new Image();
-    logoImg.src = "public/assets/images/lp-logo.png";
+    logoImg.src = "public/assets/images/logo-lp.webp";
 
     /* ── Resize ── */
     function resize() {
